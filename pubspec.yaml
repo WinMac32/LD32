@@ -1,0 +1,11 @@
+name: 'LD32'
+version: 0.0.1
+description: >
+  Ludum Dare 32
+#author: Seth Traverse <seth@viaware.ca>
+#homepage: https://www.viaware.ca
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  browser: any
+  pixi_dart: 0.2.0+3

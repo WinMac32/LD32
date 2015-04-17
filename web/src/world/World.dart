@@ -1,0 +1,5 @@
+library World;
+
+class World {
+
+}
