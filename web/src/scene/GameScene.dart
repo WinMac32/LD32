@@ -3,6 +3,7 @@ library GameScene;
 import 'Scene.dart';
 import '../Game.dart';
 import '../GameManager.dart';
+import "../loaders/TiledLoader.dart";
 
 class GameScene extends Scene {
 

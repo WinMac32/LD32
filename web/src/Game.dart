@@ -4,6 +4,7 @@ import 'package:pixi_dart/pixi.dart';
 import 'dart:html';
 import 'scene/Scene.dart';
 import 'scene/GameScene.dart';
+import "input/KeyboardManager.dart";
 
 class Game {
 
@@ -15,9 +16,12 @@ class Game {
     final int height = 600;
 
     Scene currentScene;
+    KeyboardManager keyboardManager;
+
 
     Game() {
         this.renderer = new Renderer.autoDetect(width: width, height: height);
+        this.keyboardManager = new KeyboardManager();
     }
 
     void run() {
