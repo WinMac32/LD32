@@ -9,3 +9,4 @@ environment:
 dependencies:
   browser: any
   pixi_dart: 0.2.0+3
+  priority_queue: 0.1.3

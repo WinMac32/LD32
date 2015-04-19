@@ -5,6 +5,7 @@ import 'scene/Scene.dart';
 import "loaders/TiledLoader.dart";
 import "world/TiledMap.dart";
 import "world/World.dart";
+import "interface/BarManager.dart";
 
 import "dart:html";
 
@@ -13,9 +14,12 @@ class GameManager {
     Game game;
     Scene scene;
     World currentWorld;
+    BarManager barManager;
+    TiledMap map;
 
     GameManager(this.game, this.scene) {
-        changeWorld("test");
+        this.barManager = new BarManager();
+        changeWorld("main");
     }
 
     void changeWorld(String world) {
@@ -27,15 +31,20 @@ class GameManager {
     void tiledLoaded(CustomEvent map) {
         if (map.detail is TiledMap) {
             print("Tiled loaded, Creating world instance...");
-            currentWorld = new World(map.detail, this);
-            currentWorld.create();
+            this.map = map.detail;
+            reset();
         } else {
             print("Tiled loaded event got unknown datas");
         }
     }
 
+    void reset() {
+        currentWorld = new World(map, this);
+        currentWorld.create();
+    }
+
     void update() {
-        if (currentWorld != null) {
+        if (currentWorld != null && game.delta < 100) {
             currentWorld.update();
         }
     }

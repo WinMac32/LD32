@@ -1,0 +1,255 @@
+{
+    "frames": {
+        "enemy-right-1": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 32,
+                "h": 32,
+                "y": 0
+            }
+        },
+        "enemy-right-0": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            }
+        },
+        "enemy-up-0": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 32
+            }
+        },
+        "enemy-down-3": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 96,
+                "h": 32,
+                "y": 64
+            }
+        },
+        "enemy-down-2": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 64,
+                "h": 32,
+                "y": 64
+            }
+        },
+        "enemy-down-1": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 32,
+                "h": 32,
+                "y": 64
+            }
+        },
+        "enemy-up-3": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 96,
+                "h": 32,
+                "y": 32
+            }
+        },
+        "enemy-down-0": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 64
+            }
+        },
+        "enemy-up-1": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 32,
+                "h": 32,
+                "y": 32
+            }
+        },
+        "enemy-right-3": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 96,
+                "h": 32,
+                "y": 0
+            }
+        },
+        "enemy-right-2": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 64,
+                "h": 32,
+                "y": 0
+            }
+        },
+        "enemy-up-2": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 64,
+                "h": 32,
+                "y": 32
+            }
+        }
+    },
+    "meta": {
+        "app": "SwankyTS",
+        "image": "enemy.png",
+        "size": {
+            "w": 128,
+            "h": 96
+        },
+        "format": "RGBA8888",
+        "scale": "1",
+        "version": "0.0.2"
+    }
+}

@@ -27,4 +27,13 @@ class TiledMap {
         return tLayers;
     }
 
+    ObjectLayer getCollisionLayer() {
+        for (Layer layer in layers) {
+            if (layer.properties["obj-type"] == "collision") {
+                return layer;
+            }
+        }
+        return null;
+    }
+
 }

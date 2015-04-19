@@ -1,0 +1,255 @@
+{
+    "frames": {
+        "player-boost-down-0": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 128
+            }
+        },
+        "player-boost-right-3": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 192,
+                "h": 64,
+                "y": 0
+            }
+        },
+        "player-boost-up-3": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 192,
+                "h": 64,
+                "y": 64
+            }
+        },
+        "player-boost-up-2": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 128,
+                "h": 64,
+                "y": 64
+            }
+        },
+        "player-boost-right-1": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 64,
+                "h": 64,
+                "y": 0
+            }
+        },
+        "player-boost-down-2": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 128,
+                "h": 64,
+                "y": 128
+            }
+        },
+        "player-boost-down-1": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 64,
+                "h": 64,
+                "y": 128
+            }
+        },
+        "player-boost-right-2": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 128,
+                "h": 64,
+                "y": 0
+            }
+        },
+        "player-boost-right-0": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            }
+        },
+        "player-boost-down-3": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 192,
+                "h": 64,
+                "y": 128
+            }
+        },
+        "player-boost-up-1": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 64,
+                "h": 64,
+                "y": 64
+            }
+        },
+        "player-boost-up-0": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 64
+            }
+        }
+    },
+    "meta": {
+        "app": "SwankyTS",
+        "image": "player-boost.png",
+        "size": {
+            "w": 256,
+            "h": 192
+        },
+        "format": "RGBA8888",
+        "scale": "1",
+        "version": "0.0.2"
+    }
+}

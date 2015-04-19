@@ -14,12 +14,14 @@ class Animation {
     int activeFrame;
     bool flipped;
     bool paused;
+    bool loop;
 
     void reset() {
         this.elapsed = 0;
         this.changed = true;
         this.activeFrame = 0;
         this.paused = false;
+        this.loop = true;
     }
 
     Animation(this.textures, this.sprite, double fps) {
@@ -47,7 +49,7 @@ class Animation {
             this.activeFrame++;
 
             if (this.activeFrame >= this.textures.length) {
-                this.activeFrame = 0;
+                this.activeFrame = loop ? 0 : this.textures.length - 1;
             }
         }
 

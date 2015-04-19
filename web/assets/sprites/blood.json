@@ -1,0 +1,95 @@
+{
+    "frames": {
+        "blood-3": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 96,
+                "h": 32,
+                "y": 0
+            }
+        },
+        "blood-1": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 32,
+                "h": 32,
+                "y": 0
+            }
+        },
+        "blood-2": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 64,
+                "h": 32,
+                "y": 0
+            }
+        },
+        "blood-0": {
+            "spriteSourceSize": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 32,
+                "x": 0,
+                "h": 32,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "app": "SwankyTS",
+        "image": "blood.png",
+        "size": {
+            "w": 128,
+            "h": 32
+        },
+        "format": "RGBA8888",
+        "scale": "1",
+        "version": "0.0.2"
+    }
+}

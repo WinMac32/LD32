@@ -7,7 +7,7 @@ class TileLayer extends Layer {
 
     List<TilesetTile> tiles;
 
-    TileLayer(this.tiles) {
+    TileLayer(this.tiles, Map<String, String> properties) : super(properties) {
 
     }
 

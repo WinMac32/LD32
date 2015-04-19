@@ -13,21 +13,42 @@ body
     display: table;
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
-.header
+h1
 {
     text-align: center;
     font-size: 50px;
+    font-weight: 300;
+}
+
+h2
+{
+    font-weight: 300;
 }
 
 #game-center
 {
     display: table;
     height: calc(100% - 300px);
-    width: 75%;
+    width: 900px;
     margin: 0 auto;
+}
+
+.table
+{
+    display: table;
+}
+
+.row
+{
+    display: table-row;
+}
+
+.cell
+{
+    display: table-cell;
 }
 
 #game-wrapper
@@ -35,12 +56,11 @@ body
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    column-span: 2;
 }
 
 #canvas-wrapper
 {
-    border: solid 1px #333;
-
     display: table;
     margin: 0 auto;
 }
@@ -49,4 +69,26 @@ body
 {
     width: 1024px;
     height: 800px;
+}
+
+.bar-wrapper
+{
+    width: 450px;
+    display: table-cell;
+}
+
+.bar
+{
+    /*transition: width 100ms;*/
+    height: 30px;
+}
+
+#health-bar
+{
+    background-image: url(../../web/assets/interface/health.png);
+}
+
+#stamina-bar
+{
+    background-image: url(../../web/assets/interface/stamina.png);
 }

@@ -2,7 +2,9 @@ library Layer;
 
 class Layer {
 
-    Layer() {
+    Map<String, String> properties;
+
+    Layer(this.properties) {
 
     }
 

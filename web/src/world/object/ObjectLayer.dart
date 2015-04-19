@@ -1,12 +1,13 @@
 library ObjectLayer;
 
 import "../Layer.dart";
+import "MapObject.dart";
 
 class ObjectLayer extends Layer {
 
-    List<Object> objects;
+    List<MapObject> objects;
 
-    ObjectLayer(this.objects) {
+    ObjectLayer(this.objects, Map<String, String> properties) : super(properties) {
     }
 
 }

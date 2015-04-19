@@ -98,6 +98,13 @@ class TiledLoader extends Loader {
 
             print("--> Loading " + type);
 
+            Map<String, String> properties;
+            if (layer["properties"] != null) {
+                properties = layer["properties"];
+            } else {
+                properties = new Map<String, String>();
+            }
+
             if (type == "tilelayer") {
                 List<TilesetTile> tiles = new List<TilesetTile>();
 
@@ -109,7 +116,7 @@ class TiledLoader extends Loader {
                     }
                 }
 
-                layers.add(new TileLayer(tiles));
+                layers.add(new TileLayer(tiles, properties));
             } else if (type == "objectgroup") {
                 List<Map> objectData = layer["objects"];
                 List<MapObject> objects = new List<MapObject>();
@@ -121,7 +128,7 @@ class TiledLoader extends Loader {
                     Map<String, String> properties = object["properties"];
                     objects.add(new MapObject(xPos, yPos, width, height, properties));
                 }
-                layers.add(new ObjectLayer(objects));
+                layers.add(new ObjectLayer(objects, properties));
             }
         }
 

@@ -1,0 +1,255 @@
+{
+    "frames": {
+        "player-down-0": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 128
+            }
+        },
+        "player-right-3": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 192,
+                "h": 64,
+                "y": 0
+            }
+        },
+        "player-up-3": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 192,
+                "h": 64,
+                "y": 64
+            }
+        },
+        "player-up-2": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 128,
+                "h": 64,
+                "y": 64
+            }
+        },
+        "player-right-1": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 64,
+                "h": 64,
+                "y": 0
+            }
+        },
+        "player-down-2": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 128,
+                "h": 64,
+                "y": 128
+            }
+        },
+        "player-down-1": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 64,
+                "h": 64,
+                "y": 128
+            }
+        },
+        "player-right-2": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 128,
+                "h": 64,
+                "y": 0
+            }
+        },
+        "player-right-0": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            }
+        },
+        "player-down-3": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 192,
+                "h": 64,
+                "y": 128
+            }
+        },
+        "player-up-1": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 64,
+                "h": 64,
+                "y": 64
+            }
+        },
+        "player-up-0": {
+            "spriteSourceSize": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            },
+            "trimmed": false,
+            "frame": {
+                "w": 64,
+                "x": 0,
+                "h": 64,
+                "y": 64
+            }
+        }
+    },
+    "meta": {
+        "app": "SwankyTS",
+        "image": "player.png",
+        "size": {
+            "w": 256,
+            "h": 192
+        },
+        "format": "RGBA8888",
+        "scale": "1",
+        "version": "0.0.2"
+    }
+}
