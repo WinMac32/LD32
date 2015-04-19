@@ -92,3 +92,9 @@ h2
 {
     background-image: url(../../web/assets/interface/stamina.png);
 }
+
+.float
+{
+    float: right;
+    margin-left: 20px;
+}

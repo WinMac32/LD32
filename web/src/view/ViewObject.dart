@@ -33,7 +33,7 @@ class ViewObject {
         this.container.x = this.sx = this.x - this.scene.view.x;
         this.container.y = this.sy = this.y - this.scene.view.y;
 
-        if (this.sx > this.scene.view.width || this.sx + this.width < 0 || this.sy > this.scene.view.height || this.sy + this.height < 0) {
+        if (this.sx - this.width > this.scene.view.width || this.sx + this.width < 0 || this.sy - this.height > this.scene.view.height || this.sy + this.height < 0) {
             this.container.visible = false;
         } else {
             this.container.visible = true;

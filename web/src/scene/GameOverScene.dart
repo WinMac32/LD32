@@ -23,6 +23,8 @@ class GameOverScene extends Scene {
         if (game.keyboardManager.isKeyDown(KeyCode.ENTER)) {
             game.gameScene.reset();
             game.currentScene = game.gameScene;
+            game.audioManager.stop("music-1");
+            game.audioManager.getAudio("music-0").play();
         }
     }
 

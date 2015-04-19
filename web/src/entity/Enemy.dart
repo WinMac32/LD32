@@ -23,6 +23,7 @@ class Enemy extends ViewObject {
     double attackTime;
     double deathTime;
     double bleedTime;
+    double audioTime;
 
     int homeX;
     int homeY;
@@ -78,6 +79,8 @@ class Enemy extends ViewObject {
 
         this.deathTime = 0.0;
         this.bleedTime = 0.0;
+
+        this.audioTime = 0.0;
     }
 
     int get tileX {
@@ -91,6 +94,8 @@ class Enemy extends ViewObject {
     void update() {
         super.update();
         double delta = gameManager.game.delta;
+        Player player = gameManager.currentWorld.player;
+
         if (deathTime == 0) {
             anims.step(delta);
 
@@ -156,24 +161,39 @@ class Enemy extends ViewObject {
                     }
                 }
             }
+
+            if (player.x - 32 < x && player.x + 32 > x && player.y - 32 < y && player.y + 32 > y) {
+                if (player.boosting) {
+                    if (damageTime <= 0) {
+                        health -= 50;
+                        damageTime = 100.0;
+                        bleedTime = 300.0;
+                        int track = rand.nextInt(3);
+                        gameManager.game.audioManager.getAudio("splat-" + track.toString()).play();
+                        track = rand.nextInt(3);
+                        gameManager.game.audioManager.getAudio("grunt-" + track.toString()).play();
+                        if (health <= 0) deathTime = 1000.0;
+                    }
+                } else if (attackTime <= 0) {
+                    player.health -= 10;
+                    attackTime = 500.0;
+                }
+            }
         }
         if (damageTime > 0) damageTime -= delta;
         if (attackTime > 0) attackTime -= delta;
         if (bleedTime > 0) bleedTime -= delta;
         if (deathTime > 0) deathTime -= delta;
+        if (audioTime > 0) audioTime -= delta;
 
-        Player player = gameManager.currentWorld.player;
-        if (player.x - 32 < x && player.x + 32 > x && player.y - 32 < y && player.y + 32 > y) {
-            if (player.boosting) {
-                if (damageTime <= 0) {
-                    health -= 50;
-                    damageTime = 100.0;
-                    bleedTime = 300.0;
-                    if (health <= 0) deathTime = 1000.0;
-                }
-            } else if (attackTime <= 0) {
-                player.health -= 10;
-                attackTime = 500.0;
+        if ((player.tileX - tileX).abs() < 5 && (player.tileY - tileY).abs() < 5 && audioTime <= 0) {
+            int chance = rand.nextInt(10);
+            if (chance > 6) {
+                int track = rand.nextInt(4);
+                var e = gameManager.game.audioManager.getAudio("hippie-" + track.toString());
+                e.volume = 0.5;
+                e.play();
+                audioTime = 1000.0;
             }
         }
 

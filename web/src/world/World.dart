@@ -156,10 +156,15 @@ class World {
         player.update();
 
         if (player.health <= 0) {
+            gameManager.game.audioManager.stop("music-0");
+            gameManager.game.audioManager.getAudio("music-1").play();
             gameManager.game.currentScene = gameManager.game.gameOverScene;
         }
 
+        gameManager.barManager.setCounter("enemies-remaining", enemies.length);
+
         if (enemies.length <= 5) {
+            gameManager.barManager.setCounter("current-wave", currentLevel);
             generateLevel(currentLevel++);
             player.health = player.maxHealth;
         }

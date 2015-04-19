@@ -68,6 +68,7 @@ class TiledLoader extends Loader {
             int idOffs = tileset["firstgid"];
             Texture texture = new Texture.fromImage("assets/sprites/world/" + image, false, ScaleModes.NEAREST);
             texture.baseTexture.addEventListener("loaded", textureLoaded);
+            texture.baseTexture.addEventListener("error", textureError);
             print("Loading tileset texture " + image);
             List<TilesetTile> tiles = new List<TilesetTile>();
 
@@ -139,18 +140,18 @@ class TiledLoader extends Loader {
     }
 
     void done() {
-        loadingDone++;
-        if (loadingDone >= 2) {
-            print("Done loading da shit");
-            this.dispatchEvent(new CustomEvent("loaded", detail: this.map));
-        }
+        this.dispatchEvent(new CustomEvent("loaded", detail: this.map));
+    }
+
+    void textureError(e) {
+        print("Error loading texure!");
     }
 
     void textureLoaded(e) {
+        print("Texture loaded.");
         loadedTilesets++;
         if (loadedTilesets >= tilesetsToLoad) {
             print("Tiled map loaded");
-            done();
         }
     }
 

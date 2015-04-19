@@ -89,6 +89,14 @@ class Player extends ViewObject {
         return _health;
     }
 
+    int get tileX {
+        return (x / 64).floor();
+    }
+
+    int get tileY {
+        return (y / 64).floor();
+    }
+
     void update() {
         super.update();
 

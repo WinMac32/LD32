@@ -8,4 +8,8 @@ class BarManager {
         document.querySelector("#" + bar + "-bar").style.width = ((value / max) * 450).toString() + "px";
     }
 
+    void setCounter(String counter, int value) {
+        document.querySelector("#" + counter).innerHtml = value.toString();
+    }
+
 }
