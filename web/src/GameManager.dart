@@ -23,7 +23,7 @@ class GameManager {
     }
 
     void changeWorld(String world) {
-        TiledLoader loader = new TiledLoader("assets/maps/" + world.toLowerCase() + ".json/");
+        TiledLoader loader = new TiledLoader("assets/maps/" + world.toLowerCase() + ".json");
         loader.load();
         loader.addEventListener("loaded", tiledLoaded);
     }
