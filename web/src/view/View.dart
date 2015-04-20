@@ -27,8 +27,8 @@ class View {
         num dx = this.targetX - this.x;
         num dy = this.targetY - this.y;
 
-        this.x += dx / 40 * (game.delta / 17);
-        this.y += dy / 40 * (game.delta / 17);
+        this.x += dx / 30 * (game.delta / 17);
+        this.y += dy / 30 * (game.delta / 17);
     }
 
 

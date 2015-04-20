@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>LD32</title>
+</head>
+
+<body>
+<div id="game-center">
+    <div class="row">
+        <div class="cell">
+            <div class="float">Wave: <span id="current-wave"></span></div>
+            <div class="float">Enemies Remaining: <span id="enemies-remaining"></span></div>
+        </div>
+    </div>
+    <div class="row" id="game-row">
+        <div id="game-wrapper">
+            <div id="canvas-wrapper">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cell">
+            <div class="table">
+                <div class="row">
+                    <div class="bar-wrapper">
+                        <div class="bar" id="health-bar"></div>
+                    </div>
+                    <div class="bar-wrapper">
+                        <div class="bar" id="stamina-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="application/dart" src="main.dart"></script>
+<script data-pub-inline src="packages/browser/dart.js"></script>
+</body>
+</html>
