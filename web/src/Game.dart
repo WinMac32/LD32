@@ -16,8 +16,8 @@ class Game {
     num delta;
     num lastTime;
 
-    final int width = 900;
-    final int height = 540;
+    final int width = 870;
+    final int height = 510;
 
     GameScene gameScene;
     GameOverScene gameOverScene;

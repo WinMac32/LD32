@@ -12,8 +12,8 @@ class GameOverScene extends Scene {
         Sprite sprite = new Sprite(new Texture.fromImage("assets/interface/game-over.png"));
         sprite.x = 0;
         sprite.y = 0;
-        sprite.width = 900;
-        sprite.height = 600;
+        sprite.width = game.width;
+        sprite.height = game.height;
         stage.addChild(sprite);
     }
 
